@@ -5,10 +5,13 @@
     --primary_background_color: #ffffff;
     --primary_nav_link_color: #878787;
     --secondary_nav_link_color: #6956e5;
+    --dmv_black_color: #23262F;
+    --gray_color: #828282;
 }
 .left-sidebar{
     background-color: var(--secondary_background_color);
-    width: 290px;
+    /* width: 290px; */
+    /* width: 20%; */
     padding:20px;
 }
 .left-sidebar-icon{
@@ -52,4 +55,27 @@
 .nav-icon{
     width: 30px;
     height: 30px;
+}
+
+/*right side content section*/
+
+.right-section{
+    /* padding: 20px 10px 20px 10px; */
+    padding-top: 20px;
+}
+.right-section-title{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    color: var(--dmv_black_color);
+}
+.right-section-wishes{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.12px;
+    color: var(--gray_color);
 }
