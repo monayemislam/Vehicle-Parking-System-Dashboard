@@ -97,6 +97,7 @@
             </div>
             <!--right Side-->
             <div class="col-md-9 right-section">
+                <!--topbar-->
                 <div class="row d-flex align-items-center">
                     <div class="col-md-4">
                         <div>
@@ -109,14 +110,49 @@
                         <div class="pe-3"><a href="#"><img src="assets/icons/bell.svg"></a></div>
                     </div>
                 </div>
+                <hr>
+                <!--charts-->
+                <div class="row d-flex">
+                    <div class="col-md-3  p-2">
+                       <div class="user-type-chart-parent-div"> <canvas id="userTypePieChart"></canvas></div>
+                    </div>
+                    <div class="col-md-4">
+                         <div class="parking-space-type-chart-parent-div"> <canvas id="parkingSpaceTypePieChart"></canvas></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row d-flex flex-column">
+                            <div class="col-md-4 d-flex flex-column align-items-center">
+                                <div><span class="lead">Top 10</span></div>
+                                <div><small class="text-muted right-section-wishes">positions in Parky</small></div>
+                                <div><a href="#">Click Here To View</a></div>
+                            </div>
+                            <div class="col-md-4 d-flex flex-column">
+                                <div>fgfg</div>
+                                <div>dsfg</div>
+                                <div>fgfd</div>
+                            </div>
+                            <div class="col-md-4 d-flex flex-column">
+                                <div>fgfg</div>
+                                <div>dsfg</div>
+                                <div>fgfd</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 
 
+
     <!--Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <!--chart js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/charts/user-type-pie-chart.js"></script>
+    <script src="assets/js/charts/parking-space-type-chart.js"></script>
 </body>
 
 </html>

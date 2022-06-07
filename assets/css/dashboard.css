@@ -79,3 +79,13 @@
     line-height: 19.12px;
     color: var(--gray_color);
 }
+
+/*charts*/
+
+.user-type-chart-parent-div{
+    width: 250px;
+    height: 200px;
+}
+.parking-space-type-chart-parent-div{
+    height: 200px;
+}
