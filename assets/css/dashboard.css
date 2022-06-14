@@ -9,7 +9,7 @@
     --gray_color: #828282;
 }
 .left-sidebar{
-    background-color: var(--secondary_background_color);
+    /* background-color: var(--secondary_background_color); */
     /* width: 290px; */
     /* width: 20%; */
     padding:20px;
@@ -61,7 +61,8 @@
 
 .right-section{
     /* padding: 20px 10px 20px 10px; */
-    padding-top: 20px;
+    background-color: #F7F7F7;
+    /* padding-top: 20px; */
 }
 .right-section-title{
     font-family: 'Manrope', sans-serif;
@@ -83,9 +84,32 @@
 /*charts*/
 
 .user-type-chart-parent-div{
-    width: 250px;
     height: 200px;
+    background-color: white;
+    
 }
 .parking-space-type-chart-parent-div{
-    height: 200px;
+
+background-color: #fff;
+padding: 10px;
+border-radius: 20px;
+box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05);
+ filter: drop-shadow(0px 0px 1px rgba(12, 26, 75, 0.24));
+    
+}
+
+.card-box{
+background-color: #fff;
+padding: 10px;
+border-radius: 20px;
+box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05);
+filter: drop-shadow(0px 0px 1px rgba(12, 26, 75, 0.24));
+}
+
+.last-ten-user-table-wrapper
+{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05);
+    filter: drop-shadow(0px 0px 1px rgba(12, 26, 75, 0.24));
 }

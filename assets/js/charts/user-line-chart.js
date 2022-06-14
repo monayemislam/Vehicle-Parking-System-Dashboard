@@ -30,7 +30,7 @@ const userTypePieCharOptions = {
 
 //config block
 const userTypePieChartConfig= {
-    type: 'pie',
+    type: 'line',
     data: userTypePieChartData,
     options: userTypePieCharOptions
 }

@@ -26,7 +26,7 @@ const parkingSpaceTypeBarChartData = {
 const parkingSpaceTypeBarChartOptions = {
     plugins: {
         legend:{
-            display:true,
+            display:false,
             position: 'bottom'
         }
     },
